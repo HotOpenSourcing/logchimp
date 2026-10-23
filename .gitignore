@@ -15,8 +15,6 @@ packages/server/src/services/mail/templates/**
 packages/theme/dist
 
 # local env files
-.env
-.env.local
 .env.*.local
 
 # Log files
@@ -34,3 +32,4 @@ coverage
 
 # theme
 packages/theme/.out
+config.bat
