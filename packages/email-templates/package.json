@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "maizzle serve",
-    "build": "NODE_ENV=production maizzle build",
+    "dev": "node init && maizzle serve",
+    "build": "node init && NODE_ENV=production maizzle build",
     "copy": "cp -r ./dist/** ../server/src/services/mail/templates",
     "postinstall": "maizzle prepare",
     "format": "prettier --write \"templates/**/*.vue\"",
@@ -24,7 +24,7 @@
     "eslint": "^10.11.0",
     "eslint-plugin-vue": "^10.11.0",
     "globals": "^17.12.0",
-    "prettier": "^3.9.8",
+    "prettier": "^3.9.10",
     "typescript": "^6.0.3",
     "vue-eslint-parser": "^10.4.1"
   }

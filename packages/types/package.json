@@ -17,8 +17,8 @@
     }
   },
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsc --noEmit && tsup --minify"
+    "dev": "node init && tsup --watch",
+    "build": "node init && tsc --noEmit && tsup --minify"
   },
   "devDependencies": {
     "tsup": "^8.5.1",
